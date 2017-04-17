@@ -33,8 +33,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view)
     {
-        String priceMessage = "Total: $" + quantity*5 + "\nThank You!";
-        displayMessage(priceMessage);
+        displayMessage(orderSummary(calculatePrice()));
+    }
+
+    private String orderSummary(int price)
+    {
+        return "Name: Manmohan Singh \nQuantity: " + quantity + "\nTotal: $" + price + "\nTank you!";
     }
 
     public void increment(View view)
@@ -51,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
         display(quantity);
     }
 
+    private int calculatePrice()
+    {
+        return quantity * 5;
+    }
+
+
     /**
      * This method displays the given quantity value on the screen.
      */
@@ -60,18 +70,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method displays the given price on the screen.
-     */
-    private void displayPrice(int number) {
-        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-        priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
-    }
-
-    /**
      * This method displays the given text on the screen.
      */
     private void displayMessage(String message) {
-        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-        priceTextView.setText(message);
+        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
+        orderSummaryTextView.setText(message);
     }
 }
