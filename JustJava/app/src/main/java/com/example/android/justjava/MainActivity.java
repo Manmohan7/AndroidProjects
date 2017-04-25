@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String orderSummary(int price)
     {
-        return "Name: Manmohan Singh \nQuantity: " + quantity + "\nTotal: $" + price + "\nTank you!";
+        return "Name: Manmohan Singh \nQuantity: " + quantity + "\nTotal: $" + price + "\nThank you!";
     }
 
     public void increment(View view)
