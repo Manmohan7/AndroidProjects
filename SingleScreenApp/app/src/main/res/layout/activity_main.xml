@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.singlescreenapp.MainActivity">
+
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:text="Good Food"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="The more good food you eat,\nthe more you'll like Eating"
+            android:textAllCaps="true"
+            android:textColor="#212121" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/tagline"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:text="Open Monday - Saturday\n10:00 am - 8:00 pm"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:text="#420, Sector 8,\nChandigarh"
+            android:textColor="#212121"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>
