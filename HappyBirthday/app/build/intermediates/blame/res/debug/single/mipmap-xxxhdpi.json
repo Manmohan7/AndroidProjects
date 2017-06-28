@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/manmohan/AndroidProjects/HappyBirthday/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/manmohan/AndroidProjects/HappyBirthday/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/manmohan/AndroidProjects/HappyBirthday/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/manmohan/AndroidProjects/HappyBirthday/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/manmohan/AndroidProjects/HappyBirthday/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/manmohan/.android/build-cache/695f2c3f1969ac48fcaf83146c8f09df6a12db9b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/manmohan/AndroidProjects/HappyBirthday/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/manmohan/.android/build-cache/695f2c3f1969ac48fcaf83146c8f09df6a12db9b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
