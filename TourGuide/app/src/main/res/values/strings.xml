@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Amritsar Tour Guide</string>
+    <string name="restau">Restaurants</string>
+    <string name="attract">Attractions</string>
+    <string name="hotels">Hotels</string>
+    <string name="events">Annual Events</string>
+
+    <string-array name="attractions">
+        <item>Golden Temple</item>
+        <item>Maharaja Ranjit Singh Museum</item>
+        <item>Param Pujya Mata Lal Devi Mandir</item>
+        <item>Jallianwala Bagh</item>
+        <item>Sun City</item>
+    </string-array>
+
+    <string-array name="events">
+        <item>Mango Mela</item>
+        <item>Kila Raipur Sports Festival</item>
+        <item>Holla Mahalla</item>
+        <item>Baisakhi Festival</item>
+    </string-array>
+
+    <string-array name="hotels">
+        <item>Hyatt Amritsar</item>
+        <item>Hotel Hong Kong Inn</item>
+        <item>PR Residency</item>
+        <item>Regenta Central</item>
+        <item>Hotel Sawera Grand</item>
+        <item>Radisson Blu Hotel</item>
+        <item>Ranjit\'s SVAASA</item>
+        <item>Humble Hotels</item>
+    </string-array>
+
+    <string-array name="restaurants">
+        <item>Thai Chi</item>
+        <item>Tavolo Mondo</item>
+        <item>Wall Of Asia</item>
+        <item>Blue Chilli</item>
+        <item>Zyka</item>
+        <item>Masalabar Restaurant and Bar</item>
+    </string-array>
+
+</resources>
