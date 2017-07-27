@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string-array name="ques_list">
+        <item>To access the services of operating system, the interface is provided by the</item>
+        <item>The main function of the command interpreter is</item>
+        <item>If a process fails, most operating system write the error information to a</item>
+        <item>Which facility dynamically adds probes to a running system, both in user processes and in the kernel?</item>
+        <item>Which one of the following is not a real time operating system?</item>
+    </string-array>
+</resources>
